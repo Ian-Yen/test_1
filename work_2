@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>奕安の個人部落格</title>
+        <style>
+            #title {
+                font-size: 50px;
+                text-align: center;
+                border-style:none;
+                border-width: 3px;
+                font-family: DFKai-sb;
+                color: initial;
+                position: relative;
+                top: -10px;
+            }
+            #title a{
+                text-decoration:none;
+            }
+            #title a:hover{
+                background-color: none;
+                color: red;
+            }
+            #guideline{
+                color: inherit;
+                padding: 10px;
+                width:70%;
+                margin: auto;
+                position: relative;
+                top: -60px;
+            }
+            #guideline ul {
+                text-align: center;
+                background-color: none;
+            } 
+            #guideline li{
+                font-size: 20px;
+                display: inline;
+                padding: 7%;
+            }
+            #guideline a{
+                text-align: center;
+                border-style: outset;
+                border-width: 3px;
+                font-family: DFKai-sb;
+                color: initial;
+                color:black;
+            }
+            #guideline a:hover{
+                background-color: rgb(170, 170, 170);
+                color: black;
+                border-color: rgb(170, 170, 170);
+            }
+            body{
+                background-color: none;
+                background-image: url("https://scontent.frmq2-2.fna.fbcdn.net/v/t39.30808-6/p960x960/217973715_1021889665234504_1116591965364712860_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=R8ZjBNE7AWUAX_djYHR&_nc_ht=scontent.frmq2-2.fna&oh=4aed06f0705635ba2231ee06620ef4a6&oe=6101FFF8");
+                background-repeat:no-repeat;
+                background-color: white;
+                background-attachment: fixed;
+                background-size: 100%;
+            }
+            body a{
+                text-decoration: none;
+            }
+            #動畫瘋{
+                position: relative;
+                right: 10px;
+            }
+            #center{
+                width: 60%;
+                height: 80%;
+                margin: auto;
+                position: relative;
+                top: -70px;
+            }
+            #center li{
+                font-family: DFKai-sb;
+                position: relative;
+                top: -50px;
+                color: white;
+            }
+            #center ol{
+                background-color: rgba(0, 0, 0, 0.5);
+                font-size: 20px;
+                padding: 7%;
+                text-align: left;
+            }
+            .picture{
+                position: relative;
+                top: -50px;
+            }
+            .good_bad{
+                color: white;
+                list-style: disc;
+            }
+            .place{
+                color: white;
+            }
+            .place:hover{
+                color: blue;
+                background-color: none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="title">
+            <ul>
+                <li><a href="https://ian-yen.github.io/test_1/work_1.html"><strong>奕安の個人部落格</strong></a></li>
+            </ul>
+        </nav>
+        <nav id="guideline">
+            <ul>
+                <li id="guildeline_1"><a href="https://ian-yen.github.io/test_1/work_1.html">首頁</a></li>
+                <li id="guildeline_2"><a href="https://anime1.me">ani</a></li>
+                <li id="guildeline_3"><a href="file:///C:/Users/user/Desktop/%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88/work_2.html">常用動漫平台</a></li>
+                <li id="guildeline_4"><a href="#">施工中</a></li>
+            </ul>
+        </nav>
+        <nav id="center">
+            <ol>
+                <a href="https://ani.gamer.com.tw">
+                    <li>巴哈姆特動畫瘋</li>
+                </a>
+                <a class="picture" href="https://ani.gamer.com.tw">
+                    <img src="https://p2.bahamut.com.tw/HOME/creationCover/74/0003992774_B.JPG" height="70px">
+                    <img id="動畫瘋" src="https://scontent.frmq2-2.fna.fbcdn.net/v/t39.30808-6/222173498_1022982845125186_7121557897719971677_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=0HVsAjmxmYYAX8guLpk&_nc_ht=scontent.frmq2-2.fna&oh=e119898ec6672efa9e92ad40cc37ae83&oe=610492FF" height="70px">
+                </a>
+                <ul class="good_bad">
+                    <li>網址：
+                        <a class="place" href="https://ani.gamer.com.tw">
+                            https://ani.gamer.com.tw
+                        </a>
+                    </li>
+                    <li>優點：速度快，不會卡、影片都是正版的、能夠分類不同種類的動畫</li>
+                    <li>缺點：每一集會有30秒的廣告(可購買會員來消除)、會定期下架<br>&nbsp; &nbsp; &nbsp; 新番不會全上</li>
+                </ul>
+                <li>Anime1.me動畫線上看</li>
+                <a class="picture" href="https://anime1.me">
+                    <img src="https://sta.anicdn.com/logo/260x260.png" height="70px">
+                </a>
+                <ul class="good_bad">
+                    <li>網址：
+                        <a class="place" href="https://anime1.me">
+                            https://anime1.me
+                        </a>
+                    </li>
+                    <li>優點：新番會幾乎全上、影片數量多、可供下載</li>
+                    <li>缺點：上片速度較慢(約幾個小時)、舊番較少<br>&nbsp; &nbsp; &nbsp;&nbsp;影片均為盜版</li>
+                </ul>
+                <li>myself</li>
+                <a class="picture" href="http://myself-bbs.com/portal.php">
+                    <img src="http://myself-bbs.com/template/yeei_dream1/css/yeei//logo.png">
+                </a>
+                <ul class="good_bad">
+                    <li>網址：
+                        <a class="place" href="http://myself-bbs.com/portal.php">
+                            http://myself-bbs.com/portal.php
+                        </a>
+                    </li>
+                    <li>優點：</li>
+                    <li>缺點：</li>
+                </ul>
+                <li>gimy</li>
+                <a class="picture" href="https://gimy.app/type/30.html">
+                    <img src="https://img.1777cdn.com/upload/site/20200527-1/1c54542d1d8409dea9b1e500678a2dbb.png">
+                </a>
+                <ul class="good_bad">
+                    <li>網址：
+                        <a class="place" href="https://gimy.app/type/30.html">
+                            https://gimy.app/type/30.html
+                        </a>
+                    </li>
+                    <li>優點：</li>
+                    <li>缺點：</li>
+                </ul>
+            </ol>
+        </nav>
+    </body>
+</html>
